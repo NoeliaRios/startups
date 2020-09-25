@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "./App.css";
-import Nav from "./components/Nav";
-import List from "./components/List";
+// import "./App.css";
+import Nav from "../../components/Nav";
+import List from "../../components/List";
 
-import { StartupProvider } from "./contexts/StartupsContext";
+import { StartupProvider } from "../../contexts/StartupsContext";
 
 function App() {
   const [input, setInput] = useState("");
